@@ -35,3 +35,26 @@ font-weight: 500;
 line-height: 40px;
 letter-spacing: 1.5px;
 }
+.input-field{
+    width: 95px;
+height: 32px;
+border-radius: 4px;
+background: #F1F1F1;
+}
+.calc-btn{
+    width: 250px;
+height: 40px;
+color: #fff;
+font-weight: 700;
+border-radius: 8px;
+background: #1090D8;
+border: none;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+img{
+    width: 243px;
+height: 194px;
+margin-top: 20px;
+
+}
