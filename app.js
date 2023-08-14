@@ -10,6 +10,6 @@ document.getElementById('tri-btn').addEventListener('click', function(){
     triangleHeight.value = '';
     const calculateTotal = document.getElementById('display');
     calculateTotal.innerHTML = `<ol>
-    <li>{$area}cm <sup>2</sup> <button>covert</button></li>
+    <li><h5>Triangle</> ${area} cm <sup>2</sup> <button class="btn btn-primary">covert</button></li>
   </ol>`
 })
