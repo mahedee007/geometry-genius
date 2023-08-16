@@ -57,3 +57,23 @@ document.getElementById('ract-btn').addEventListener('click', function(){
     resultList.appendChild(resultItem);
   
 })
+
+document.getElementById('para-btn').addEventListener('click', function(){
+    const paraB = inputs('para-b');
+    const paraH = inputs('para-h');
+    const area = (paraB * paraH).toFixed(2);
+    const resultItem = document.createElement('li');
+
+    // Create an <h3> tag for the area value
+    const areaHeader = document.createElement('h5');
+    areaHeader.textContent = `Parallogram: ${area}`;
+    
+    // Create a button
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'convert';
+    resultItem.appendChild(areaHeader);
+    resultItem.appendChild(deleteButton);
+    
+    const resultList = document.getElementById('result-list');
+    resultList.appendChild(resultItem);
+})
